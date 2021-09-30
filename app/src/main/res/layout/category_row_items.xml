@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        app:cardCornerRadius="6dp"
+        android:layout_margin="2dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/item_image"
+                android:src="@drawable/iplcska"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 min"
+                android:id="@+id/tvtime1"
+                android:textSize="9sp"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:layout_marginEnd="4sp"
+                android:layout_marginTop="2sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/gradientlayout1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/ic_baseline_play_arrow_24"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="1dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dhoni"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="bottom"
+                    android:textSize="9dp"
+                    android:layout_marginStart="6dp"
+                    android:id="@+id/tvtitle1"/>
+            </LinearLayout>
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
