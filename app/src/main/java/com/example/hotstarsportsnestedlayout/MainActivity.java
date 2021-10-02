@@ -21,12 +21,17 @@ public class MainActivity extends AppCompatActivity {
 
 
         List<CategoryItem> categoryItemList1 = new ArrayList<>();
-        categoryItemList1.add(new CategoryItem(1, R.drawable.iplcska));
-        categoryItemList1.add(new CategoryItem(1, R.drawable.iplcska));
-        categoryItemList1.add(new CategoryItem(1, R.drawable.iplcska));
-        categoryItemList1.add(new CategoryItem(1, R.drawable.iplcska));
-        categoryItemList1.add(new CategoryItem(1, R.drawable.iplcska));
-        categoryItemList1.add(new CategoryItem(1, R.drawable.iplcska));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.cricket));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.americanfootball));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.badminton));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.esports));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.football));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.formulae));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.kabaddi));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.martialarts));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.tennis));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.hockey));
+        categoryItemList1.add(new CategoryItem(1, R.drawable.formulaone));
 
 
         List<CategoryItem> categoryItemList2 = new ArrayList<>();
